@@ -1,0 +1,7 @@
+add_subdirectory ("${CMAKE_CURRENT_SOURCE_DIR}/business_logic")
+add_subdirectory ("${CMAKE_CURRENT_SOURCE_DIR}/crc_manager")
+add_subdirectory ("${CMAKE_CURRENT_SOURCE_DIR}/exceptions")
+add_subdirectory ("${CMAKE_CURRENT_SOURCE_DIR}/file_manager")
+add_subdirectory ("${CMAKE_CURRENT_SOURCE_DIR}/input_data")
+add_subdirectory ("${CMAKE_CURRENT_SOURCE_DIR}/reference_data")
+add_subdirectory ("${CMAKE_CURRENT_SOURCE_DIR}/tests_runner")
