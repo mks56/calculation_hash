@@ -5,6 +5,7 @@
 ## Generate files from swig
 
 1. In directory 'calculation_hash_cpp/subsystems/business_logic/library/source/':
+
 		For auto generate files run in terminal: 'swig -go -c++ -intgosize 64 basic_functional.i'
 		Change extension for file from 'basic_functional_wrap.cxx' to 'basic_functional_wrap.cc'
 		Open file 'basic_functional_wrap.cc' and change line 243: '%include "basic_functional.h"' to '#include "basic_functional.h"'
