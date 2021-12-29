@@ -12,7 +12,7 @@ class BasicFunctional {
                   const std::string& file_name_for_write,
                   size_t input_block_size);
 
-  auto GetBlockSize();
+  size_t GetBlockSize();
   SharedFileManager GetSharedFileManager();
   int32_t GetSignatureFile();
 

@@ -27,7 +27,7 @@ SharedFileManager BasicFunctional::GetSharedFileManager() {
   return this->file_manager_;
 }
 
-auto BasicFunctional::GetBlockSize() { return this->block_size_; }
+size_t BasicFunctional::GetBlockSize() { return this->block_size_; }
 
 int32_t BasicFunctional::GetSignatureFile() {
   auto data_size_reading_file =

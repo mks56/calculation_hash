@@ -35,5 +35,5 @@ func (signature_file SignatureFile) GetSignatureFile() int {
 func CalculateSignatureForTestFile() {
 	signature_file := AllocateBasicFunctional("/tmp/test_directory/test_file_for_read", "/tmp/test_directory/", "test_file_for_write_calc_crc_32", 23)
 	defer signature_file.FreeBasicFunctional()
-	fmt.Println("[go]", signature_file.GetSignatureFile())
+	fmt.Println("[cgo]", signature_file.GetSignatureFile())
 }
